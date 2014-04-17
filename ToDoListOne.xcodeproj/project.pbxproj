@@ -16,6 +16,10 @@
 		85DFF209185493B400070813 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 85DFF208185493B400070813 /* Default.png */; };
 		85DFF20B185493B400070813 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85DFF20A185493B400070813 /* Default@2x.png */; };
 		85DFF20D185493B400070813 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85DFF20C185493B400070813 /* Default-568h@2x.png */; };
+		85DFF2141854B0FB00070813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DFF2131854B0FB00070813 /* Main.storyboard */; };
+		85DFF24B1855F83E00070813 /* ABCAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DFF24A1855F83E00070813 /* ABCAddToDoItemViewController.m */; };
+		85DFF24E1855F87400070813 /* ABCToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DFF24D1855F87400070813 /* ABCToDoListViewController.m */; };
+		85DFF2511855FA1400070813 /* ABCToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DFF2501855FA1400070813 /* ABCToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,13 @@
 		85DFF208185493B400070813 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		85DFF20A185493B400070813 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		85DFF20C185493B400070813 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		85DFF2131854B0FB00070813 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		85DFF2491855F83E00070813 /* ABCAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCAddToDoItemViewController.h; sourceTree = "<group>"; };
+		85DFF24A1855F83E00070813 /* ABCAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCAddToDoItemViewController.m; sourceTree = "<group>"; };
+		85DFF24C1855F87400070813 /* ABCToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCToDoListViewController.h; sourceTree = "<group>"; };
+		85DFF24D1855F87400070813 /* ABCToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCToDoListViewController.m; sourceTree = "<group>"; };
+		85DFF24F1855FA1400070813 /* ABCToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCToDoItem.h; sourceTree = "<group>"; };
+		85DFF2501855FA1400070813 /* ABCToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +91,14 @@
 			children = (
 				85DFF205185493B400070813 /* ABCAppDelegate.h */,
 				85DFF206185493B400070813 /* ABCAppDelegate.m */,
+				85DFF2131854B0FB00070813 /* Main.storyboard */,
+				85DFF2491855F83E00070813 /* ABCAddToDoItemViewController.h */,
+				85DFF24A1855F83E00070813 /* ABCAddToDoItemViewController.m */,
+				85DFF24C1855F87400070813 /* ABCToDoListViewController.h */,
+				85DFF24D1855F87400070813 /* ABCToDoListViewController.m */,
 				85DFF1FD185493B400070813 /* Supporting Files */,
+				85DFF24F1855FA1400070813 /* ABCToDoItem.h */,
+				85DFF2501855FA1400070813 /* ABCToDoItem.m */,
 			);
 			path = ToDoListOne;
 			sourceTree = "<group>";
@@ -155,6 +173,7 @@
 				85DFF209185493B400070813 /* Default.png in Resources */,
 				85DFF20B185493B400070813 /* Default@2x.png in Resources */,
 				85DFF20D185493B400070813 /* Default-568h@2x.png in Resources */,
+				85DFF2141854B0FB00070813 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +186,9 @@
 			files = (
 				85DFF203185493B400070813 /* main.m in Sources */,
 				85DFF207185493B400070813 /* ABCAppDelegate.m in Sources */,
+				85DFF24B1855F83E00070813 /* ABCAddToDoItemViewController.m in Sources */,
+				85DFF24E1855F87400070813 /* ABCToDoListViewController.m in Sources */,
+				85DFF2511855FA1400070813 /* ABCToDoItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +303,7 @@
 				85DFF212185493B400070813 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
